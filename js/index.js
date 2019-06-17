@@ -6,7 +6,6 @@ element.innerHTML = 'Hello, DOM!';
 element.style.backgroundColor = '#f9f9f9';
 
 document.body.appendChild(element);
-<div style=​"background-color:​ rgb(249, 249, 249)​;​">​Hello, DOM!​</div>​
 
 element.style.textAlign = 'center';
 
@@ -20,10 +19,9 @@ for (let i = 0; i < 3; i++) {
 }
  
 element.appendChild(ul);
-<ul>​…​</ul>​
+
 ul.style.textAlign = 'left';
-"left"
+
 ul.removeChild(ul.querySelector('li:nth-child(2)'));
-<li>​2​</li>​
+
 ul.remove()
-undefined
